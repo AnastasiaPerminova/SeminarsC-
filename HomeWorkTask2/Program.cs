@@ -16,6 +16,10 @@ if (numberA > numberB )
        
     Console.WriteLine($"Большее число это {numberA}, а меньшее число это {numberB}");
 }
+else if (numberA == numberB)
+{
+    Console.WriteLine($"Числа равны");
+}
 else 
 {
      Console.WriteLine($"Большее число это {numberB}, а меньшее число это {numberA}");
