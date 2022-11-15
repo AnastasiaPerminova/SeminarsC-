@@ -3,9 +3,9 @@
 // 5 -> Пятница
 
 Console.WriteLine("Введите заданный номер от 1 до 7: ");
-int number = Convert.ToInt32(Console.ReadLine ()); 
+int NumDay = Convert.ToInt32(Console.ReadLine ()); 
 
-switch (number)
+switch (NumDay)
 {
     case 1:
         Console.WriteLine("Понедельник");
@@ -32,7 +32,7 @@ switch (number)
         Console.WriteLine("Воскресенье");
         break;
     default:
-        Console.WriteLine("Ошибка ввода");
+        Console.WriteLine("Ошибка ввода. Номер должен быть от 1 до 7. Дней недели всего 7!");
         break;
 
 

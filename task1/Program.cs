@@ -13,9 +13,9 @@ int number2 = Convert.ToInt32(Console.ReadLine ());
 
 if (number2 * number2 == number1)
 {
-    Console.WriteLine("да");
+    Console.WriteLine("Да: первое число является квадратом второго.");
 }
 else 
 {
-    Console.WriteLine("нет");
+    Console.WriteLine("Нет: первое число не является квадратом второго.");
 }
