@@ -3,12 +3,11 @@
 // 2 -> " -2, -1, 0, 1, 2"
 
 Console.WriteLine("Введите число N");
-int N = Convert.ToInt32(Console.ReadLine ()); 
+int N = Math.Abs(Convert.ToInt32(Console.ReadLine ())); 
 
 
 
 for (int number = -N; number <= N; number++)
 {
-    Console.Write($"{number}, ");
-
+    Console.Write($"{number} ");
 }
