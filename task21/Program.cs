@@ -9,15 +9,16 @@
 // A (7,-5); B (1,-1) -> 7,21
 //AB = √(xb - xa)2 + (yb - ya)2 
 
-Console.WriteLine("Введите координату X первой точки: ");
+Console.WriteLine("Введите координату X точки A: ");
 int xa = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Y первой точки: ");
+Console.WriteLine("Введите координату Y точки A: ");
 int ya = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату X второй точки: ");
-int xb = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Y второй точки: ");
+Console.WriteLine("Введите координату X  точки B: ");
+int xb = Convert.ToInt32(Console.ReadLin0e());
+Console.WriteLine("Введите координату Y точки B: ");
 int yb = Convert.ToInt32(Console.ReadLine());
 
 double ab = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2));
 Console.WriteLine($"Расстояние между двумя точками A({xa},{ya}) и B({xb},{yb}) равно {Math.Round(ab, 2)}");
+
 

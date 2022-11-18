@@ -16,5 +16,18 @@ do
 
 }
 while (x <= number);
-       
+
+Console.WriteLine("");
+for (int i = 1; i <= number; i++)
+{
+    Console.WriteLine(Math.Pow(i,2));
+}
+
+int count = 1;
+
+while(count <= number)
+{
+    Console.WriteLine(count*count);
+    count++;
+}
 
