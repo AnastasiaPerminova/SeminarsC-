@@ -14,7 +14,7 @@ int xa = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату Y точки A: ");
 int ya = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату X  точки B: ");
-int xb = Convert.ToInt32(Console.ReadLin0e());
+int xb = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату Y точки B: ");
 int yb = Convert.ToInt32(Console.ReadLine());
 
