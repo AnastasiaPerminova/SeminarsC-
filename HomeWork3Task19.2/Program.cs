@@ -19,10 +19,6 @@ do
     digits.Add(digit); 
 }
 while (changedNumber > 0);
-foreach(int digit in digits)
-{
-    Console.WriteLine(digit);
-}
 
 for (int k = 0; k < digits.Count(); k++)
 {
@@ -37,4 +33,6 @@ for (int k = 0; k < digits.Count(); k++)
     }
 
 }
+
+
 
