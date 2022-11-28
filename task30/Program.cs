@@ -38,3 +38,28 @@ for (int i = 0; i < arr.Length; i++)
 Console.WriteLine();
 
 Console.Write('[' + string.Join(", ", arr) + ']');
+
+Console.WriteLine();
+
+int[] arr1 = new int [5];
+for(int i = 0; i < arr1.Length; i++)
+{
+
+    Console.WriteLine("Введите элемент массива");
+
+    arr1[i] = Convert.ToInt32(Console.ReadLine());
+}
+Console.WriteLine(string.Join(", ", arr1));
+
+void Enter(out int A, out int B)
+{
+    Console.Write("Ведите число А: ");
+     A = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Ведите число B: ");
+    B = Convert.ToInt32(Console.ReadLine());
+}
+
+
+
+Enter(out int A, out int B);
+Console.WriteLine($"{A} {B}");
