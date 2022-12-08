@@ -34,7 +34,7 @@ int Xi = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите j :");
 int Xj = Convert.ToInt32(Console.ReadLine());
 
-if(Xi > 0 && Xi < m && Xj >0 && Xj < n)
+if(Xi >= 0 && Xi < m && Xj >=0 && Xj < n)
 {  
     for (int i = 0; i < m; i++)
     {
